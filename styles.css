@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.menu-container, .game-container, .next-piece {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #fff;
+    background-color: #000;
+}
+
+.score-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.score-container h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.score-container p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#controls {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.next-piece {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.next-piece h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#nextPiece {
+    border: 2px solid #fff;
+    background-color: #000;
+    margin-top: 5px;
+}
+
+/* Estilos para los colores de las piezas */
+.piece-T {
+    background-color: #FF0D72;
+}
+
+.piece-O {
+    background-color: #0DC2FF;
+}
+
+.piece-L {
+    background-color: #0DFF72;
+}
+
+.piece-J {
+    background-color: #F538FF;
+}
+
+.piece-I {
+    background-color: #FF8E0D;
+}
+
+.piece-S {
+    background-color: #FFE138;
+}
+
+.piece-Z {
+    background-color: #3877FF;
+}
+/* Ajustar el tamaño del tablero y de las piezas para que sean responsivos */
+#tetris {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para la sección de la siguiente pieza */
+.next-piece {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.next-piece h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#nextPiece {
+    border: 2px solid #fff;
+    background-color: #000;
+    margin-top: 5px;
+}
+
+/* Estilos para los colores de las piezas */
+.piece-T {
+    background-color: #FF0D72;
+}
+
+.piece-O {
+    background-color: #0DC2FF;
+}
+
+.piece-L {
+    background-color: #0DFF72;
+}
+
+.piece-J {
+    background-color: #F538FF;
+}
+
+.piece-I {
+    background-color: #FF8E0D;
+}
+
+.piece-S {
+    background-color: #FFE138;
+}
+
+.piece-Z {
+    background-color: #3877FF;
+}
